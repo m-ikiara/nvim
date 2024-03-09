@@ -1,6 +1,7 @@
 require "overall.options"
 require "overall.buffer"
 require "overall.keymaps"
+require "overall.cmp"
 require "overall.plugins"
 require "overall.line"
 require "overall.tree"
