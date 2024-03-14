@@ -68,3 +68,9 @@ local python = Terminal:new({ cmd = "python", hidden = true })
 function _PYTHON_TOGGLE()
         python:toggle()
 end
+
+local pwsh = Terminal:new({ cmd = "pwsh", hidden = true, direction = "horizontal" })
+
+function _PWSH_TOGGLE()
+        pwsh:toggle()
+end

@@ -3,6 +3,13 @@ local options = {
 	shiftwidth = 4,
 	colorcolumn = { 81, 121 },
 	cursorline = true,
+	swapfile = false,
+	number = true,
+	relativenumber = true,
+	showmode = false,
+	ignorecase = true,
+	smartcase = true,
+	fileencoding = "utf-8",
 }
 
 for k, v in pairs(options) do
