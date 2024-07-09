@@ -58,6 +58,7 @@ return packer.startup(function(use)
 	use { "hrsh7th/cmp-nvim-lsp" }
 	use { "hrsh7th/cmp-nvim-lua" }
 	use { "L3MON4D3/LuaSnip" }
+	use { "rcarriga/nvim-notify" }
 	use { "rafamadriz/friendly-snippets" }
 
 	if PACKER_BOOTSTRAP then

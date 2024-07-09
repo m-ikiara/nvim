@@ -6,7 +6,7 @@ require "overall.plugins"
 require "overall.colors"
 require "overall.options"
 require "overall.keymaps"
--- require "overall.mason"
+require "overall.notify"
 -- require("overall.handlers").setup()
 require "overall.tree"
 require "overall.keys"
