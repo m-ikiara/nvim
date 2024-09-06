@@ -60,6 +60,7 @@ return packer.startup(function(use)
 	use { "L3MON4D3/LuaSnip" }
 	use { "rcarriga/nvim-notify" }
 	use { "rafamadriz/friendly-snippets" }
+    use { "rhysd/vim-llvm" }
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
